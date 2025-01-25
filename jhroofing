@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="J+H Roofing Services - Professional and Reliable Roofing Solutions">
+    <meta name="keywords" content="Roofing, Roofing Services, J+H Roofing, Roof Repairs">
+    <meta name="author" content="J+H Roofing Services">
+    <title>J+H Roofing Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="placeholder-logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: black;
+        }
+        header {
+            background: linear-gradient(90deg, #004aad, #0077c8);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .hero {
+            position: relative;
+            background-image: url('https://via.placeholder.com/1920x1080?text=Roofing+Hero');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: none;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-shadow: none;
+        }
+        .cta-button {
+            padding: 10px 20px;
+            background: #004aad;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #0077c8;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        #about, #services, #contact {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        #about p:last-of-type {
+            font-weight: bold;
+            color: black;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #004aad;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/150?text=J%2BH+Roofing+Logo" alt="J+H Roofing Logo" style="width: 150px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Your Trusted Roofing Partner</h1>
+            <p>Expert solutions for all your roofing needs</p>
+            <button class="cta-button">Get a Free Estimate</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At J+H Roofing Services, we pride ourselves on delivering top-quality roofing solutions that stand the test of time. Our mission is to provide excellent customer service and unparalleled craftsmanship.</p>
+        <p>No rain, no leak guarantee!</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150?text=Team+Member" alt="Leadership Team Member">
+                <h3>Huber Cardenas</h3>
+                <p>Co-Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150?text=Team+Member" alt="Leadership Team Member">
+                <h3>Huber Cardenas Jr.</h3>
+                <p>Co-Founder</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Residential Roofing</h3>
+            <p>High-quality roofing solutions for your home.</p>
+        </div>
+        <div class="service">
+            <h3>Commercial Roofing</h3>
+            <p>Durable roofing options for your business.</p>
+        </div>
+        <div class="service">
+            <h3>Roof Repairs</h3>
+            <p>Fast and reliable repair services.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://via.placeholder.com/300?text=Roofing+Project+1" alt="Roofing Project">
+            <img src="https://via.placeholder.com/300?text=Roofing+Project+2" alt="Roofing Project">
+            <img src="https://via.placeholder.com/300?text=Roofing+Project+3" alt="Roofing Project">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-carousel">
+            <blockquote>
+                <p>"J+H Roofing exceeded our expectations. Highly recommended!"</p>
+                <cite>- Alex Johnson</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Professional, reliable, and efficient. Great experience!"</p>
+                <cite>- Maria Gonzalez</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>5 Tips for Maintaining Your Roof</h3>
+            <p>Regular roof maintenance can save you money in the long run...</p>
+        </article>
+        <article>
+            <h3>Signs It's Time for a New Roof</h3>
+            <p>Noticing leaks or damage? Here's what to look out for...</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Huber Cardenas" readonly>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" value="(408)763-1100" readonly>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="huber@alcal.com" readonly>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" readonly>No rain, No leak!</textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 J+H Roofing Services. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>    
